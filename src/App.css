@@ -87,7 +87,7 @@ img{
 
 /* =========== REUSABLE CLASES =========== */
 .section {
-  padding: 4rem 0 2rem;
+  padding: 6rem 0 2rem;
 }
 .section__title {
   font-size: var(--h1-font-size);
@@ -164,7 +164,6 @@ img{
     padding: 1rem 1.75rem;
   }
 }
-/* =========== Meidum Devises =========== */
 @media screen and (max-width: 768px){
     .secction {
       padding: 2rem 0 4rem;
