@@ -5,7 +5,7 @@ const Header = () => {
    /* =========== Change Background Header =========== */
    window.addEventListener("scroll", function() {
       const header = document.querySelector(".header");
-      if (this.scrollY >= 80) header.classList.add("scroll-header"); 
+      if (this.scrollY >= 80) header.classList.add("scroll-header");
       else header.classList.remove("scroll-header");
   })
 
@@ -16,6 +16,7 @@ const Header = () => {
       <header className="header">
          <nav className="nav container">
             <a href="index.html" className="nav__logo">Nelson Almendares</a>
+
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                <ul className="nav__list grid">
                   <li className="nav__item">
@@ -49,6 +50,7 @@ const Header = () => {
                      </a>
                   </li>
                </ul>
+
                <i className='uil uil-times nav__close' onClick={() => ShowMenu(!Toggle)}></i>
             </div>
             <div className="nav__toggle" onClick={() => ShowMenu(!Toggle)}>

@@ -55,7 +55,7 @@ function Data() {
             </h1>
             <h3 className='home__subtitle'>Software Developer</h3>
             <p className="home__description">
-                I'm study and become a software developer since 2020. I like to work in team and create new solutions for every bug
+                I'm study and became a software developer since 2020. I like to work in team and create new solutions for every bug
             </p>
             <a href="#contact" className="button button--flex">Say Hello
                 <svg
